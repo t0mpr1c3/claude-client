@@ -1,0 +1,26 @@
+<instructions>
+Create a QT5 application UI page.
+
+- The main window is entitled "Engineering Mode Commands" and has a central widget with tabs entitled "Load Controller" "Active Burden" "SSM36" "Active Comp" and "CCT Controller". Each tab contains a form. Buttons on the link to engineering commands that are implemented as QT signals. At the bottom of the page there is a button labeled "Quit" that quits the application.
+
+- The "Load Controller" tab has a group entitled "Coarse Variac" with push buttons that are labelled "Coarse variac UP" "Coarse variac DOWN", and a horizontal slider labeled "Coarse variac DAC voltage" with a range 0 to 10, and a horizontal slider labeled "Coarse variac Jog time mSecs" with a range 0 to 999. That "Load Controller" tab also has a group entitled "Stepper Motor Controls" containing push buttons labeled "Fine variac UP" "Fine variac DOWN" "Pri-SW C tap UP" "Pri-SW C tap DOWN" "Pri-SW D tap UP" and "Pri-SW D tap DOWN", and a horizontal slider labeled "Step Size" that provides values of 1 through 10 that are sent when those buttons are pushed. The "Load Controller" tab also has checkbox buttons labeled "Enable main contactor" "Interlock bypass"  "Turn red light ON (P1204)"  "Turn green light ON (P1203)" and "Turn fan 2 ON (P1211)", a radio button group titled "Fine Variac" with radio buttons labeled "Fine transformer" and "1:1 transformer", and two pushbuttons "GFCI reset" and "Coarse variac alarm reset". 
+
+- The "Active Burden" tab has a group entitled "Resistors" containing checkbox buttons labeled "R1" "R2" "R3" "R4" "R5" "R6" "R7" "R8" "R9" "R10" "R11" "R12" "R13" "R14" "R15" "R16" "R17" "R18" "Spare resistor". It also has a group entitled "Inductors" containing checkbox buttons for "Inductor tap 1" "Inductor tap 2" "Inductor tap 4" "Inductor tap 8" "Inductor tap 16" "Inductor tap 32" "Inductor tap 64" "Inductor tap 128", and "B0.3 aux inductor". It also has a group entitled "Test CTs" containing checkbox buttons labeled "TUT 1 SHORT" "TUT 1 ENABLE" "TUT 2 SHORT" "TUT 2 ENABLE" "TUT 3 SHORT" "TUT 3 ENABLE" "TUT 4 SHORT" "TUT 4 ENABLE" "TUT 5 SHORT" "TUT 5 Enable". The "Active Burden" tab also has a group entitled "Other Controls" containining checkboxes "Self test" and "Turn resistor fan ON". The "Active Burden" tab has another group entitled "Inductor Jog" containing push buttons "Jog motorized inductor IN" and "Jog motorized inductor OUT" and a horizontal slider labeled "Step Size" provides values of 1 through 10 that are sent when those buttons are pushed.
+
+- The "SSM36" tab has checkbox buttons that toggles each tap selection from 1 through 18, and a radio button group entitled "Self Test" with radio buttons labeled "800T self test" and "120T self test".
+
+- The "Active Comp" tab has a checkbox button labeled "Enable compensation".
+
+- The "CCT Controller" tab has a radio button group entitled "CCT mode" with radio buttons labeled "MET Default" "Range 1" "Range 2" "Range 3" and "Bypass".
+</instructions>
+
+ <requirements>
+- Use QT5 syntax.
+- Include proper signal-slot connections.
+- Add input validation.
+</requirements>
+
+<output_format>
+Provide complete C++ code with header and implementation files. The project file is called "EngineeringMode.pro".
+Use Camel Case for the file names. 
+</output_format>
