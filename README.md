@@ -6,6 +6,11 @@ Usage:
 ./claude.py user_prompt.txt
 ```
 
+Dependencies:
+```bash
+pip install anthropic
+```
+
 Set your Anthropic API key as an environment variable:
 ```bash
 export ANTHROPIC_API_KEY="YOUR_API_KEY"
