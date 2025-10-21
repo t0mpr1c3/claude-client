@@ -1,4 +1,4 @@
-#!/home/tesco/claude/claude-client/claude/bin/python
+#!./claude/bin/python
 
 # usage:
 # ./claude.py user_prompt.txt
