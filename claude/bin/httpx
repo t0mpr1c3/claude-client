@@ -1,4 +1,4 @@
-#!/home/tesco/claude/claude-client/claude/bin/python3
+#!/home/tesco/claude-client/claude/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

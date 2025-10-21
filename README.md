@@ -6,9 +6,20 @@ Usage:
 ./claude.py user_prompt.txt
 ```
 
+Dependencies:
+```bash
+sudo apt install python3-venv
+sudo apt install python3-pip
+mkdir -p claude
+python3 -m venv claude
+source ./claude/bin/activate
+python3 -m pip install anthropic
+```
+
 Setup:
 ```bash
 ./setup.sh
+source ./claude/bin/activate
 ```
 
 Set your Anthropic API key as an environment variable:
